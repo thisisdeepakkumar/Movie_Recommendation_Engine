@@ -52,10 +52,19 @@ This formulation, also known as vector-based similarity, considers two objects a
 Now we will create a movie recommendation system in Python using streamlit, CSS, and a Jupyter notebook, in which we'll leverage a user's previous viewing experience to forecast movie recommendations.
 
 ## **Steps**
-1. Download tmdb 5000 movies dataset
+Step 1. **Download tmdb 5000 movies dataset**
 - tmdb_5000_movies.csv
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 - tmdb_5000_credits.csv
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credits.csv
 
-**unzip both data files**
+**unzip both data files and save as tmdb_5000_movieslist.csv & tmdb_5000_creditslist.csv respectively**
+
+Step 2. **Launch Jupyter Notebook**
+- Create a new folder named Movie Recommendation Engine Sytem
+- Create a new sub folder named Movie Recommendation Engine under Movie Recommendation Engine System
+- Upload both unzip data set in the sub folder
+- Create a new python 3 file named recommendation engine under sub folder
+- copy the code from recommendation engine sytstem.ipynb
+- run each line of code
+- you will see two new folder named movie_list.pkl & similarity.pkl will be formed in the sub folder  
