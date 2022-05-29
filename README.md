@@ -41,3 +41,9 @@ This formulation, also known as vector-based similarity, considers two objects a
 ![This is an image](https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png)
 ![This is an image](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a4c9a778656537624a3303e646559a429868863)
 
+## **Flowchart of recommendation engine**
+![This is an image](https://www.analyticsvidhya.com/wp-content/uploads/2015/08/3.jpg)
+
+## **Recommender**
+- The user can select his favourite movie (or the movie on the basis of which he wants the system to recommend movies).
+- Recommendations are created based on the user's input by ordering the similarities in descending order.
