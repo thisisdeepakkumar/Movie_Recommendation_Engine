@@ -47,3 +47,6 @@ This formulation, also known as vector-based similarity, considers two objects a
 ## **Recommender**
 - The user can select his favourite movie (or the movie on the basis of which he wants the system to recommend movies).
 - Recommendations are created based on the user's input by ordering the similarities in descending order.
+
+## **Lets Get Started**
+Now we will create a movie recommendation system in Python using streamlit, CSS, and a Jupyter notebook, in which we'll leverage a user's previous viewing experience to forecast movie recommendations.
