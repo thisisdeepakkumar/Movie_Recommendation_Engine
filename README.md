@@ -1,5 +1,5 @@
 # Movie Recommendation Engine
-The code for building a movie recommendation system could be found in this repository.
+The code for building a content based movie recommendation system could be found in this repository.
 
 ## **What Is a Recommendation Engine?**
 A recommendation engine is a data filtering tool that use machine learning algorithms to suggest the most relevant products to a certain user or customer. It works on the premise of identifying patterns in customer behavior data, which can be collected either implicitly or explicitly.
@@ -22,12 +22,21 @@ A recommendation engine uses a combination of data and machine learning technolo
 
 Recommendation engines execute a four-step operation:
 
-Step 1: Data collection
-- Implicit Data 
-- Explicit Data
+**Step 1: Data collection**: Gathering data is the first and most critical stage in constructing a recommendation engine. 
+There are two types of data that must be gathered:
+- **Implicit Data** 
+- **Explicit Data**
 
-Step 2: Data storage
-Step 3: Data analysis 
-- Real-time analysis: Data is processed in real time.
-- Batch analysis: Data is handled on a regular basis.
-- Near real time analysis: When data isn't needed right away, it's analysed in minutes rather than seconds.
+**Step 2: Data storage**: After the data has been gathered, it must be kept. The amount of data will expand enormously over time. This necessitates the availability of substantial, scalable storage. Different forms of storage are available depending on the sort of data you collect.
+
+**Step 3: Data analysis**: The data must then be explored down into and examined before it can be used. You can analyze the data in a multitude of ways. These are some of them:
+- **Real-time analysis**: Data is processed in real time.
+- **Batch analysis**: Data is handled on a regular basis.
+- **Near real time analysis**: When data isn't needed right away, it's analysed in minutes rather than seconds.
+
+**Step 4: Data filtering:** Filtering is the final stage. Depending on whether collaborative, content-based, or hybrid model recommendation filtering is employed, different matrixes or mathematical rules and formulas are applied to the data. The recommendations are the result of this filtering.
+
+## **Cosine Similarity**
+This formulation, also known as vector-based similarity, considers two objects and their ratings as vectors, and defines similarity as the angle between them:
+
+![This is an image]([https://miro.medium.com/max/1300/1*a1JCAwOr5_TVJWlzg44BKg.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDepP0YobhGUcetbdLsAGevzpbhgP0W5-iw&usqp=CAU))
