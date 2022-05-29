@@ -12,7 +12,7 @@ Collaborative filtering, content-based filtering, and a mix of the two are the t
 
 
 
-### **Content-Baesd Filtering**
+### **Content-Based Filtering**
 Content-based filtering works on the principle that if you like a particular item, you will also like this other item. To make recommendations, algorithms use a profile of the customer’s preferences and a description of an item (genre, product type, color, word length) to work out the similarity of items using cosine and Euclidean distances. 
 
 ### **Collaborative Filtering**
