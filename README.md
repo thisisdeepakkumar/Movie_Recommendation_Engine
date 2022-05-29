@@ -113,3 +113,15 @@ streamlit
 
 requests
 
+- open terminal and type streamlit run app.py
+
+**Step 5. Heroku Server** (for deployment on heroku you must have downloaded git on your local machine)
+- Create a new account on heroku https://www.heroku.com/ or use your existing account
+- create a new app with your favourite name 
+- Click on Deploy then deployment method select Heroku Git
+- Download and install Heroku Cli
+- now, run each command on pycharm terminal one by one.
+- heroku login (it will prompt you to login to your heroku account)
+- now type and run next command according to your heroku account
+- complete all the steps
+- you will prompt with a message like this https://your-app-name.herokuapp.com/ and prompt to network host new window in your browser. 
