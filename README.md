@@ -6,3 +6,4 @@ A recommendation engine is a data filtering tool that use machine learning algor
 
 ### **What Sorts of Recommendation Engines Are All there?**
 Collaborative filtering, content-based filtering, and a mix of the two are the three main types of recommendation engines.
+![This is an image](https://miro.medium.com/max/1300/1*a1JCAwOr5_TVJWlzg44BKg.png)
