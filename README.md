@@ -38,5 +38,6 @@ There are two types of data that must be gathered:
 
 ## **Cosine Similarity**
 This formulation, also known as vector-based similarity, considers two objects and their ratings as vectors, and defines similarity as the angle between them:
+![This is an image](https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png)
+![This is an image](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a4c9a778656537624a3303e646559a429868863)
 
-![This is an image]([https://miro.medium.com/max/1300/1*a1JCAwOr5_TVJWlzg44BKg.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDepP0YobhGUcetbdLsAGevzpbhgP0W5-iw&usqp=CAU))
