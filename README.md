@@ -70,3 +70,26 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credit
 - you will see two new folder named movie_list.pkl & similarity.pkl will be formed in the sub folder  
 
 **Step 3. Launch Pycharm Community** (if do not have follow https://www.jetbrains.com/help/pycharm/installation-guide.html official documentaion for launching and also install latset version of python from https://www.python.org)
+- Create new project named recommendation system project and select virtual environment
+- Create new python file name app.py
+- copy code from test.py to app.py
+- open terminal and type pip install streamlit and enter
+- open terminal and type pip install requests and enter
+- copy and paste file named movie_list.pkl and similarity.pkl from sub folder named Movie Recommendation Engine to recommendation system project in pycharm
+- open terminal and type streamlit run app.py
+- you will be redirected to your browser and your localhost will be launced
+- *you need to change the api key id of tmdb in app.py file or you can use mine (https://developers.themoviedb.org/3/getting-started/authentication) for generating api key id
+
+**Step 4. To Deploy in Heroku Server** (for deployment you need to create 4 additional files in pycharm)
+- Create a new file named Procfile and copy the following code web: sh setup.sh && streamlit run test.py
+- Create a new file named set.sh and copy following code
+
+mkdir -p ~/.streamlit/
+
+echo  "\
+[server]\n\
+port = $PORT\n\
+enableCORS = false\n\
+headless = true\n\
+\n\
+" > ~/.streamlit/config.toml
