@@ -81,15 +81,24 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credit
 - *you need to change the api key id of tmdb in app.py file or you can use mine (https://developers.themoviedb.org/3/getting-started/authentication) for generating api key id
 
 **Step 4. To Deploy in Heroku Server** (for deployment you need to create 4 additional files in pycharm)
-- Create a new file named Procfile and copy the following code web: sh setup.sh && streamlit run test.py
+- Create a new file named Procfile and copy the following code 
+
+web: sh setup.sh && streamlit run test.py
+
 - Create a new file named set.sh and copy following code
 
 mkdir -p ~/.streamlit/
 
 echo  "\
+
 [server]\n\
+
 port = $PORT\n\
+
 enableCORS = false\n\
+
 headless = true\n\
+
 \n\
+
 " > ~/.streamlit/config.toml
