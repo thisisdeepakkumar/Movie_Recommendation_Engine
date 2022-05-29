@@ -81,7 +81,8 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credit
 - Jupyter Notebook
 - Pycharm
 - Heroku app
-- 
+
+
 ## **Lets Get Started**
 Now we will create a movie recommendation system in Python using streamlit, CSS, and a Jupyter notebook, in which we'll leverage a user's previous viewing experience to forecast movie recommendations.
 
