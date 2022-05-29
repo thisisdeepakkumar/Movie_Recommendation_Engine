@@ -60,7 +60,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credit
 
 **unzip both data files and save as tmdb_5000_movieslist.csv & tmdb_5000_creditslist.csv respectively**
 
-Step 2. **Launch Jupyter Notebook**
+Step 2. **Launch Jupyter Notebook** (if do not have follow https://docs.jupyter.org/en/latest/install/notebook-classic.html official documentaion for launching)
 - Create a new folder named Movie Recommendation Engine Sytem
 - Create a new sub folder named Movie Recommendation Engine under Movie Recommendation Engine System
 - Upload both unzip data set in the sub folder
