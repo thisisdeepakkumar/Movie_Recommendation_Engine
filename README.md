@@ -143,3 +143,8 @@ requests
 
 ## **Summary**
 We looked at the basics and implementation of a content-based recommendation engine using python, sreamlit, css, and a jupyter notebook in this project, and constructed a movie recommendation model where users' interests were engaged in making recommendations for movies to watch.
+
+## **References**
+1. github.com (for learning documentation)
+2. stackoverflow.com (for removing errors)
+3. youtube.com (for some theroy)
