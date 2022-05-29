@@ -85,7 +85,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credit
 
 web: sh setup.sh && streamlit run test.py
 
-- Create a new file named set.sh and copy following code
+- Create a new file named setup.sh and copy following code
 
 mkdir -p ~/.streamlit/
 
@@ -102,3 +102,14 @@ headless = true\n\
 \n\
 
 " > ~/.streamlit/config.toml
+
+- Create a new file named .gitingnore and type
+
+venv
+
+- Create a new file named requirements.txt and type 
+
+streamlit
+
+requests
+
