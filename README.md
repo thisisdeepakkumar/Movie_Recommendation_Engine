@@ -7,7 +7,10 @@ A recommendation engine is a data filtering tool that use machine learning algor
 ## **What Sorts of Recommendation Engines Are All there?**
 Collaborative filtering, content-based filtering, and a mix of the two are the three main types of recommendation engines.
 
+
 ![This is an image](https://miro.medium.com/max/1300/1*a1JCAwOr5_TVJWlzg44BKg.png)
+
+
 
 ### **Content-Baesd Filtering**
 Content-based filtering works on the principle that if you like a particular item, you will also like this other item. To make recommendations, algorithms use a profile of the customer’s preferences and a description of an item (genre, product type, color, word length) to work out the similarity of items using cosine and Euclidean distances. 
@@ -40,13 +43,25 @@ There are two types of data that must be gathered:
 ## **Cosine Similarity**
 This formulation, also known as vector-based similarity, considers two objects and their ratings as vectors, and defines similarity as the angle between them:
 
+
+
 ![This is an image](https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png)
+
+
+
 
 ![This is an image](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a4c9a778656537624a3303e646559a429868863)
 
+
+
+
 ## **Flowchart of recommendation engine**
 
+
+
 ![This is an image](https://www.analyticsvidhya.com/wp-content/uploads/2015/08/3.jpg)
+
+
 
 ## **Recommender**
 - The user can select his favourite movie (or the movie on the basis of which he wants the system to recommend movies).
