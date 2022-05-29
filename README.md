@@ -17,3 +17,17 @@ Collaborative filtering is the process of gathering and analysing data on user b
 ### **Hybrid Model**
 A hybrid recommendation engine considers both meta (collaborative) and transactional (content-based) data when making recommendations. As a result, it outperforms both.
 
+## **How Does a Recommendation Engine Work?**
+A recommendation engine uses a combination of data and machine learning technologies to make recommendations. Data is critical in the creation of a recommendation engine since it is the foundation from which patterns are created. It will be more efficient and effective in making appropriate revenue-generating ideas if it has more data.
+
+Recommendation engines execute a four-step operation:
+
+Step 1: Data collection
+- Implicit Data 
+- Explicit Data
+
+Step 2: Data storage
+Step 3: Data analysis 
+- Real-time analysis: Data is processed in real time.
+- Batch analysis: Data is handled on a regular basis.
+- Near real time analysis: When data isn't needed right away, it's analysed in minutes rather than seconds.
