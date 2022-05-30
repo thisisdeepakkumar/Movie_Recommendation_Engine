@@ -114,7 +114,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credit
 - open terminal and type pip install streamlit and enter
 - open terminal and type pip install requests and enter
 - copy and paste file named movie_list.pkl, similarity.pkl, from sub folder named Movie Recommendation Engine to recommendation system project in pycharm
-- copy file and paste file nmaed background.jpg, logo.png, sidebar_back.png from githun repository to recommendation system project in pycharm
+- copy file and paste file nmaed background.jpg, logo.png, sidebar_back.png from github repository to recommendation system project in pycharm
 - open terminal and type streamlit run app.py
 - you will be redirected to your browser and your localhost will be launced
 - *you need to change the api key id of tmdb in app.py file or you can use mine (https://developers.themoviedb.org/3/getting-started/authentication) for generating api key id
